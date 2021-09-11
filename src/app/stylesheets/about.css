@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'kanitTitle';
+    src: url('./kanitMedium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.about_header {
+    font-size: 2rem;
+    font-family: 'KanitTitle';
+    border-bottom: 3px solid black;
+}
+
+.about_image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.about_image-container img{
+    width: 250px;
+}
+
+.about_description {
+    max-width: 60%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.about_items-container {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}

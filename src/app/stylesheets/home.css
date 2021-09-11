@@ -1,0 +1,22 @@
+.home_image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.home_image-container img{
+    width: 300px;
+}
+
+.content_items-name {
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'kanitTitle';
+}
+
+.content_items-address {
+    width: 100%;
+    text-align: center;
+    font-family: 'kanitMedium';
+}

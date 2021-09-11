@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'kanitTitle';
+    src: url('./kanitMedium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+.menu_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    height: 35vh;
+    width: 50%;
+}
+
+.menu_image-container {
+    padding-top: 10px;
+}
+
+.menu_item-image {
+    width: 150px;
+    height: 150px;
+}
+
+.menu_item-title {
+    font-size: 22px;
+    font-family: 'kanitTitle';
+    letter-spacing: 1.2px;
+}
+
+.menu_item-description{
+    width: 50%;
+    margin: 0 auto; 
+}
+
+.hidden {
+    display: none;
+}

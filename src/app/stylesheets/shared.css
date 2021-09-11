@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'kanitTitle';
+    src: url('./kanitMedium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+body {
+    background: url('../../imgs/greekPlant.jpg');
+    /* background-size: contain; */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.header {
+    display: fixed;
+    top: 0;
+    background-color: #444;
+    height: 15vh;
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.header_title {
+    margin-left: 5%;
+    font-size: 2rem;
+}
+
+.header_tabs {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+}
+
+.header_tab{
+    box-sizing: border-box;
+}
+
+.header_tab:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.content_main {
+    height: 85vh;
+    width: 100%;
+}
+
+.content_items-container {
+    width: 50%;
+    margin: auto;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 100%;
+    background-color:aliceblue;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
